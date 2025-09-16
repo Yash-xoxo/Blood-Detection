@@ -38,7 +38,7 @@ class AnalysisThread(QThread):
             # Process blood sample
             self.progress.emit(30)
             blood_group, confidence, analysis_data = self.process_blood_sample(self.blood_sample_path)
-            
+#mammia
             # Prepare results
             results = {
                 'fingerprint': fingerprint_result,
